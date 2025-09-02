@@ -38,7 +38,7 @@ public class Program
         Console.WriteLine("/nIgualdade (!=): " + result);
 
         //Operador Maior que (>)
-        if (x > y) ;
+        if (x > y) 
         {
             result = "x é maior que y";
         }
