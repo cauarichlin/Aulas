@@ -50,7 +50,7 @@ public class Program
             Console.WriteLine(fruit);
         }
 
-          Console.WriteLine(separator);
+        Console.WriteLine(separator);
 
         fruits.Clear();
 
@@ -58,7 +58,18 @@ public class Program
         {
             Console.WriteLine(fruit);
         }
-      
+
+        List<int> numbers = new List<int>();
+
+        numbers.Add(1);
+        numbers.Add(50);
+        numbers.Add(78);
+
+        
+        foreach (int number in numbers)
+        {
+            Console.WriteLine(number);
+        }
 
     }
 }
